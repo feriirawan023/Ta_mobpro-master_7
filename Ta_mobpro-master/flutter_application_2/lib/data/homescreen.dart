@@ -19,10 +19,12 @@ class home extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const Profile(),
+               
                 ),
               );
             },
           ),
+             Icon (Icons.search),
         ],
         backgroundColor: const Color.fromRGBO(30, 107, 135, 100),
         title: const Text('Daftar Mobil Rental'),
